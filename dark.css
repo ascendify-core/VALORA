@@ -1,0 +1,87 @@
+/* ------------ GLOBAL ------------ */
+body, .stApp {
+    background: linear-gradient(135deg, #0a0a0f 0%, #151520 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #e8e6ff;
+}
+
+/* Titles */
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #c59bff;
+    text-shadow: 0 0 16px #b47aff;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    color: #9f90ff;
+}
+
+/* Section headers */
+.section {
+    font-size: 28px;
+    font-weight: 600;
+    color: #d4b6ff;
+    border-left: 5px solid #b47aff;
+    padding-left: 12px;
+    margin-top: 15px;
+}
+
+/* Sidebar */
+.css-1d391kg, .stSidebar {
+    background: #0d0d15 !important;
+    border-right: 1px solid #2b2b3d;
+}
+
+.stSidebar .css-1n76uvr, .stSidebar .css-1n76uvr label {
+    color: #cfbaff !important;
+    font-weight: 500;
+}
+
+/* Buttons */
+.stButton > button {
+    background: #b47aff;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    padding: 10px 20px;
+}
+
+.stButton > button:hover {
+    background: #a06bff;
+    box-shadow: 0 0 15px #c59bff;
+}
+
+/* Inputs */
+input, select, textarea {
+    background: #1b1827 !important;
+    border-radius: 6px !important;
+    border: 1px solid #6642a5 !important;
+    color: #e8e6ff !important;
+}
+
+/* Data tables */
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    border: 1px solid #3b3154;
+    overflow: hidden;
+}
+
+/* Metrics */
+[data-testid="stMetricValue"], [data-testid="stMetricLabel"] {
+    color: #d4c3ff !important;
+}
+
+/* Charts */
+.js-plotly-plot .plotly {
+    border-radius: 12px;
+    background-color: transparent !important;
+}

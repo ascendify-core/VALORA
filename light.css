@@ -1,0 +1,81 @@
+/* ------------ GLOBAL ------------ */
+body, .stApp {
+    background: #fbf9ff;
+    font-family: 'Poppins', sans-serif;
+    color: #4a3c66;
+}
+
+/* Titles */
+.title {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #6b2bbb;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    color: #8564c1;
+}
+
+/* Section headers */
+.section {
+    font-size: 27px;
+    font-weight: 600;
+    color: #6b2bbb;
+    border-left: 5px solid #a57bff;
+    padding-left: 12px;
+    margin-top: 15px;
+}
+
+/* Sidebar */
+.css-1d391kg, .stSidebar {
+    background: #eee8ff !important;
+    border-right: 1px solid #ccb8ff;
+}
+
+/* Buttons */
+.stButton > button {
+    background: #8a4cff;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    padding: 10px 20px;
+}
+
+.stButton > button:hover {
+    background: #7436eb;
+    box-shadow: 0 0 10px #a881ff;
+}
+
+/* Inputs */
+input, select, textarea {
+    background: white !important;
+    border-radius: 6px !important;
+    border: 1px solid #a88bff !important;
+    color: #4a3c66 !important;
+}
+
+/* Data tables */
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    border: 1px solid #cfc1ff;
+    overflow: hidden;
+}
+
+/* Metrics */
+[data-testid="stMetricValue"], [data-testid="stMetricLabel"] {
+    color: #7544c9 !important;
+}
+
+/* Charts */
+.js-plotly-plot .plotly {
+    border-radius: 12px;
+    background-color: transparent !important;
+}

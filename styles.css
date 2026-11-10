@@ -1,0 +1,25 @@
+/* styles.css */
+
+body {
+    background-color: #f8fafc;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #2e3b4e;
+}
+
+.sidebar .sidebar-content {
+    background-color: #eef2f7;
+}
+
+.stButton>button {
+    background-color: #4b8efc;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+
+.stButton>button:hover {
+    background-color: #3b6ed0;
+}
