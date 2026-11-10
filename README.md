@@ -32,30 +32,6 @@ Digital payments have caused a surge in personal transaction volumes, but most f
 
 
 
-\## Architecture
-
-
-
-A layered, modular design keeps each concern separate:
-
-
-
-| Layer | Files |
-
-|---|---|
-
-| UI | `main.py`, `analytics.py`, `\*.css` |
-
-| Business logic | `budget.py`, `auth.py`, `professions.py`, `reminders.py` |
-
-| Data processing | `predictor.py` |
-
-| Storage | `database.py`, `models.py`, SQLite |
-
-| REST API | `api.py` (FastAPI) |
-
-
-
 \## Tech stack
 
 
